@@ -1,6 +1,4 @@
-using System;
-
-namespace XNA_Opdracht3_Steering {
+namespace Opdracht3_Steering {
 #if WINDOWS || XBOX
     static class Program
     {
@@ -9,7 +7,7 @@ namespace XNA_Opdracht3_Steering {
         /// </summary>
         static void Main(string[] args)
         {
-            using (Game1 game = new Game1())
+            using (SimPhyGameWorld game = new SimPhyGameWorld())
             {
                 game.Run();
             }
