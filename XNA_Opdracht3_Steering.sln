@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA_Opdracht3_Steering", "XNA_Opdracht3_Steering\XNA_Opdracht3_Steering\XNA_Opdracht3_Steering.csproj", "{E94869F4-5F95-4831-A333-6EC49833FFE7}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XNA_Opdracht3_SteeringContent", "XNA_Opdracht3_Steering\XNA_Opdracht3_SteeringContent\XNA_Opdracht3_SteeringContent.contentproj", "{33A8E221-1544-4964-AD5D-CF2DF71ABBA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E94869F4-5F95-4831-A333-6EC49833FFE7}.Debug|x86.ActiveCfg = Debug|x86
+		{E94869F4-5F95-4831-A333-6EC49833FFE7}.Debug|x86.Build.0 = Debug|x86
+		{E94869F4-5F95-4831-A333-6EC49833FFE7}.Release|x86.ActiveCfg = Release|x86
+		{E94869F4-5F95-4831-A333-6EC49833FFE7}.Release|x86.Build.0 = Release|x86
+		{33A8E221-1544-4964-AD5D-CF2DF71ABBA4}.Debug|x86.ActiveCfg = Debug|x86
+		{33A8E221-1544-4964-AD5D-CF2DF71ABBA4}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
