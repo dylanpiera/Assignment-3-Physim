@@ -9,8 +9,7 @@ namespace Opdracht3_Steering {
     /// This is the main type for your game
     /// </summary>
     public class SimPhyGameWorld : GameEnvironment {
-        public SimPhyGameWorld()
-            : base() {
+        public SimPhyGameWorld() {
             Content.RootDirectory = "Content";
         }
 
@@ -22,10 +21,10 @@ namespace Opdracht3_Steering {
             base.LoadContent();
 
             screen = new Point(1280, 800);
-            this.SetFullScreen(false);
-            gameStateManager.AddGameState("playingState", new PlayingState());
+            SetFullScreen(false);
+            gameStateManager.AddGameState("playState", new PlayState());
 
-            gameStateManager.SwitchTo("playingState");
+            gameStateManager.SwitchTo("playState");
             IsMouseVisible = true;
         }
     }

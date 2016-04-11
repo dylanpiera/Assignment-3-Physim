@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA_Opdracht3_Steering", "X
 EndProject
 Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XNA_Opdracht3_SteeringContent", "XNA_Opdracht3_Steering\XNA_Opdracht3_SteeringContent\XNA_Opdracht3_SteeringContent.contentproj", "{33A8E221-1544-4964-AD5D-CF2DF71ABBA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManagement", "XNA_Opdracht3_Steering\GameManagement\GameManagement\GameManagement.csproj", "{81460380-4FF0-4EC0-9586-389E598C9F92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{E94869F4-5F95-4831-A333-6EC49833FFE7}.Release|x86.Build.0 = Release|x86
 		{33A8E221-1544-4964-AD5D-CF2DF71ABBA4}.Debug|x86.ActiveCfg = Debug|x86
 		{33A8E221-1544-4964-AD5D-CF2DF71ABBA4}.Release|x86.ActiveCfg = Release|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Debug|x86.ActiveCfg = Debug|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Debug|x86.Build.0 = Debug|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Release|x86.ActiveCfg = Release|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
