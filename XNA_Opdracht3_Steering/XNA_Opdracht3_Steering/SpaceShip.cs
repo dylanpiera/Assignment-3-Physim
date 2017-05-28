@@ -7,6 +7,9 @@ namespace Opdracht3_Steering {
         protected float mass;
         private Vector2 target;
         private float rotation;
+        private float max_force = 10;
+        private float max_speed = 250;
+        private float slowing_radius = 300;
 
         // add maxSteering, maxSpeed and arrivingRadius
 
@@ -25,6 +28,23 @@ namespace Opdracht3_Steering {
             target = GameWorld.Find("target").Position;
 
             // calculate steering direction
+            Vector2 desired_velocity = target - position;
+            if(desired_velocity.Length() < slowing_radius)
+            {
+                desired_velocity = desired_velocity * max_speed * (desired_velocity.Length() / slowing_radius);
+            } else
+            {
+                desired_velocity *= max_speed;
+            }
+
+            Vector2 steering = desired_velocity - velocity;
+            
+            steering = Truncate(steering, max_force);
+            steering = steering / mass;
+            
+            velocity = Truncate(velocity + steering, max_speed);
+
+            //Console.Out.WriteLine("Velocity: "+velocity);
 
             // arriving and stopping
 
